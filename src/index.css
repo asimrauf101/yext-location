@@ -54,24 +54,7 @@
 .target-class div div div div {
 	margin-left: -10px; /* or whatever styling you want for hover */
 }
-@media screen and (min-width: 1440px) {
-	.search {
-		margin-left: 38px;
-	}
-}
 
-@media screen and (min-width: 1396px) and (max-width: 1440px) {
-	.search {
-		margin-left: 25px;
-	}
-}
-
-/* Styles for screens with a width of 1440px or wider */
-@media screen and (min-width: 1440px) {
-	.search {
-		margin-left: 38px;
-	}
-}
 @media screen and (min-width: 768px) {
 	/* Styles for screens with a width of 1440px or wider */
 	.btn {
@@ -95,4 +78,10 @@
 	.search-btn {
 		width: 330px;
 	}
+}
+
+.search{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 15px;
 }

@@ -93,7 +93,7 @@ const PageLayout = ({
 							<div className='lg:hidden hidden xl:block'>
 								<div className='grid grid-cols-12 bg-[#e3eaf3]'>
 									<div className='col-span-8 extraLarge:col-span-9 large:col-span-8' />
-									<div className='large:ml-[7.5rem] extraLarge:ml-[2.5rem] search ml-[15px]'>
+									<div className='col-span-4 extraLarge:col-span-3 large:col-span-4 search'>
 										<Search />
 									</div>
 								</div>
