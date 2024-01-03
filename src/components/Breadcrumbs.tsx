@@ -27,14 +27,18 @@ const Breadcrumb = (props: BreadCrumbProps) => {
 	if (slug) {
 		return (
 			<Link href={slug}>
-				<span className='font-bold hover:underline hover:cursor-pointer'>
+				<span className='font-bold hover:underline hover:cursor-pointer capitalize'>
 					{name}
 				</span>
 			</Link>
 		);
 	}
 
-	return <span className=' text-xs font-nomal small:text-[12px]'>{name}</span>;
+	return (
+		<span className=' text-xs font-nomal small:text-[12px] capitalize'>
+			{name}
+		</span>
+	);
 };
 
 const BreadCrumbs = (props: BreadCrumbsProps) => {
