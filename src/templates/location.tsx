@@ -287,7 +287,7 @@ const Location: Template<TemplateRenderProps> = ({
 
 					<div>
 						<img
-							src='https://images.unsplash.com/photo-1639389016237-85a1a16f76d0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fGJyYW5jaCUyMHJlaWdvbmFsJTIwZmluYW5jZXxlbnwwfHwwfHx8MA%3D%3D'
+							src='https://gruffy-goat.b-cdn.net/Screenshot%202023-08-24%20at%208.25%201.png'
 							height={610}
 						/>
 					</div>
@@ -298,7 +298,7 @@ const Location: Template<TemplateRenderProps> = ({
 				{/* Image Content section */}
 				<div className='grid grid-cols-1 lg:grid-cols-2 bg-bg h-max'>
 					<img
-						src='https://images.unsplash.com/photo-1682686580186-b55d2a91053c?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw2fHx8ZW58MHx8fHx8'
+						src='https://gruffy-goat.b-cdn.net/Mask%20Group.jpg'
 						className='large:w-[800px] w-[760px] extraLarge:w-[900px]'
 						style={{
 							height: '100%',
